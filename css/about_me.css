@@ -1,0 +1,161 @@
+body {
+  /* Typography Declarations */
+  color: black;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.masthead{
+border-style:outset;
+border-bottom-color:FFFFFF;
+padding: 3em 0 35em 0;
+/* margin: 0em 30em 0em 30em; */
+background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/black-cat-in-living-room-peeking-over-arm-rest-of-royalty-free-image-535829203-1548451527.jpg?crop=0.964xw:0.724xh;0.0195xw,0.263xh&resize=1200:*');
+background-size: cover;
+}
+/*
+/.masthead-intro {
+padding: 0 0 0 0;
+margin:-4em 0 .5em 0;
+}*/
+
+
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+  text-align: center;
+}
+
+.masthead-intro {
+/* Typography Declarations */
+font-family: "Gentium Book Basic", Georgia, serif;
+font-size: 2em;
+}
+
+.masthead-heading{
+/* Layout Declarations */
+margin-top:-0.5em;
+/* Typography Declarations */
+font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.introduction-section,
+.location-section,
+.about_me-section,
+.content-footer {
+max-width: 38em;
+margin-left: auto;
+margin-right: auto;
+}
+
+.socsites > li {
+  display: inline-block;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+/* Typography Declarations */
+font-weight: 200;
+letter-spacing: 0.5em;
+}
+
+.about_me-section >h1 {
+font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  /* Layout */
+  margin: 2em 0 1em 0;
+}
+
+section > h1 {
+  margin-top: 2em;
+}
+#vk {
+position: absolute;
+width: 90px;
+height: 30px;
+left: 530px;
+top: 1390px;
+
+background: #000000;
+border-radius: 10px;
+color: white;
+border-width: 0px;
+font-family: Arial;
+font-weight: bold;
+}
+#vk:hover {
+background: white;
+color: black;
+}
+#vk:active {
+transform: scale(0.95);
+}
+#telegram {
+position: absolute;
+width: 90px;
+height: 30px;
+left: 630px;
+top: 1390px;
+
+background: #000000;
+border-radius: 10px;
+color: white;
+border-width: 0px;
+font-family: Arial;
+font-weight: bold;
+}
+#telegram:hover {
+background: white;
+color: black;
+}
+#telegram:active {
+transform: scale(0.95);
+}
+#instagram {
+position: absolute;
+width: 90px;
+height: 30px;
+left: 730px;
+top: 1390px;
+
+background: #000000;
+border-radius: 10px;
+color: white;
+border-width: 0px;
+font-family: Arial;
+font-weight: bold;
+}
+#instagram:hover {
+background: white;
+color: black;
+}
+#instagram:active {
+transform: scale(0.95);
+}
+
+#spotify {
+position: absolute;
+width: 90px;
+height: 30px;
+left: 830px;
+top: 1390px;
+
+background: #000000;
+border-radius: 10px;
+color: white;
+border-width: 0px;
+font-family: Arial;
+font-weight: bold;
+}
+#spotify:hover {
+background: white;
+color: black;
+}
+#spotify:active {
+transform: scale(0.95);
+}
