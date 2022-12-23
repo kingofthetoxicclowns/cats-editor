@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.div {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.gal { 
+  position:static;
+}
+.img {
+  position: relative;
+  flex: 0%;
+  max-width: 20%;
+  top:170px;
+  left:130px;
+}
+.img1 {
+  position: relative;
+  flex: 25%;
+  max-width: 25%;
+  top:-20px;
+  left:50px;
+  
+}
+.img2 {
+  position: relative;
+  flex: 25%;
+  max-width: 25%;
+  top: -50px;
+  left: 0px;
+}
+.img3 {
+  position: relative;
+  flex: 25%;
+  max-width: 25%;
+  top:20px;
+  left:-100px;
+}
+.img4 {
+  position: relative;
+  flex: 25%;
+  max-width: 25%;
+  top:-50px;
+  left:630px;
+}
+.img5 {
+  position: relative;
+  flex: 25%;
+  max-width: 25%;
+  top:60px;
+  left:300px;
+}
+.img6 {
+  position: relative;
+  flex: 25%;
+  max-width: 25%;
+  top:100px;
+  left:-60px;
+}
+.img7 {
+  position: relative;
+  flex: 25%;
+  max-width: 25%;
+  top:-80px;
+  left:250px;
+}
+.clip {
+  max-width: 25%;
+  clip-path: circle(50% at 50% 50%); 
+  float:left;
+}
+.clip1 {
+  max-width: 25%;
+  clip-path: polygon(0 100%, 50% 0, 100% 100%); 
+  float:left;
+}
+.monospace{
+  font-weight:bold;
+  font-family:Courier New;
+}
+.a:hover {
+  cursor: pointer;
+  transform: scale(1.015);
+}
+
+.he:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.table {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+  text-align: center;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-bottom: double;
+  border-top: double;
+  border-color: white;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #ffffff;
+  margin:8px;
+  padding:0px;
+  border-spacing: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:link {
+    color: white;
+}

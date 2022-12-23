@@ -1,0 +1,118 @@
+html {
+  background-image: url("../img/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#login_pannel {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: calc(50% - 250px);
+
+  width: 650px;
+  height: 500px;
+  background: black;
+  border-radius: 50px;
+  box-sizing: border-box;
+  padding-top: 42px;
+  margin: 0 auto;
+}
+
+#login {
+  position: absolute;
+  width: 42px;
+  height: 19px;
+  left: 180px;
+  top: 224px;
+
+  font-family: "Arial";
+  font-size: 14px;
+  color: white;
+}
+#login_field {
+  position: absolute;
+  left: 180px;
+  top: 248px;
+
+  width: 290px;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 0px;
+  border-radius: 10px;
+}
+#password {
+  position: absolute;
+  width: 74px;
+  height: 19px;
+  left: 180px;
+  top: 313px;
+
+  font-family: "Arial";
+  font-size: 14px;
+  color: white;
+}
+#password_field {
+  position: absolute;
+  left: 180px;
+  top: 337px;
+
+  width: 290px;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 0px;
+  border-radius: 10px;
+}
+#log_in {
+  position: absolute;
+  width: 290px;
+  height: 30px;
+  left: 181px;
+  top: 419px;
+
+  background: #000000;
+  border-radius: 10px;
+  color: white;
+  border-width: 0px;
+  font-family: Arial;
+  font-weight: bold;
+}
+#log_in:hover {
+  background: white;
+  color: black;
+}
+#log_in:active {
+  transform: scale(0.95);
+}
+#create_account {
+  position: absolute;
+  width: 290px;
+  height: 30px;
+  left: 181px;
+  top: 459px;
+
+  background: #000000;
+  border-radius: 10px;
+  color: white;
+  border-width: 0px;
+  font-family: Arial;
+  font-weight: bold;
+}
+#create_account:hover {
+  background: white;
+  color: black;
+}
+#create_account:active {
+  transform: scale(0.95);
+}
