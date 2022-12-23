@@ -1,32 +1,26 @@
-DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-    <div id="login_pannel">
-    <link rel="stylesheet" href="C:\Users\kuznetsovk\Desktop\full_project\css\about_me.css"/>
-    <script src="script.js"> </script>
-  </head>
-  <body>
-    <div id="login_pannel">
-    <IMG src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/cat-icon-18-256.png" style="
-margin: 0px 0px 0px 230px;
-width: 180px;
-">
-      <div>
-        <div id="login">Login</div>
-        <div id="password">Password</div>
-        <form>
-          <input type="text" name="message" id="login_field"/
-          onchange='checkLogin(this.value)'> <input type="password"
-          name="message" id="password_field"/
-          onchange='checkPassword(this.value)'>
-        </form>
-        <button id="log_in">Log In</button>
-                <button id="create_account">Create account</button>
-      </div>
-    </div>
-  </body>
-</html>
+<!DOCTYPE html>
+  <header class="masthead">
+		<meta harset="UTF-8">
+    <p class="masthead-intro">Hi, I'm</p>
+    <h1 class="masthead-heading">Kirill Kuznetsov!</h1>
+		<link rel="stylesheet" type="text/css" href="C:/Users/kuznetsovk/Desktop/full_project/css/about_me.css">
+  </header>
+  <section class="introduction-section">    
+		<h1>Introduction</h1>
+		<p>I am a 3rd year student  <a href="https://www.nstu.ru/">NSTU NETI</a>, at the Faculty of Applied Mathematics and Informatics. I am a member of the student pedagogical group "Hummingbird". I want to develop in the field of web development. </p>
+</section>
+<section class="location-section">
+		<h1>Where I am from</h1>
+		<p>I have lived all my life in Novosibirsk or in its region. There are two excellent universities here: NSU and NSTU. In the second, I decided to enter by a lucky chance.</p>
+</section>
+<section class="about_me-section">
+		<h1>More about me</h1>
+		<p>If you want to learn more about me, then follow the link to my account in vk, telegram, spotify, *forbidden organization*, and remember we are family and we all have potential.</p>
+</section>
+<footnote class="content-footer">
+		<ul class="socsites">
+      <li><button id="vk"><a href="https://vk.com/king_of_the_toxic_clowns">|   VK.com   |</a></button></li>
+      <li><button id="telegram"><a href="https://t.me/sayamen">|   Telegram   |</a></button></li>
+      <li><button id="instagram"><a href="">|   Ins****am  |</a></button></li>
+    <li><button id="spotify"><a href="www.spotify.com">|   Spotify  |</a></button></li>
+  </ul>
