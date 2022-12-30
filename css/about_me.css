@@ -1,161 +1,187 @@
 body {
-  /* Typography Declarations */
-  color: black;
-  font-size: 1em;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    /* Typography Declarations */
+    background-color: black;
+    margin: 0px;
 }
+
+.header {
+    width: 100%;
+    height: 85px;
+    background: #000000;
+    position: absolute;
+    vertical-align: top;
+}
+
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: f000;
+}
+
+.header a:visited {
+    color: white;
+}
+
+.header a:link {
+    color: white;
+}
+
+.header ul {
+    float: right;
+    display: inline-table;
+    color: white;
+    list-style: no;
+}
+
+.header li {
+    display: inline-block;
+    font-size: 60px;
+}
+
+.header .a:hover {
+  cursor: pointer;
+  transform: scale(1.015);
+}
+
+.header .a:hover {
+  cursor: pointer;
+  transform: scale(1.015);
+}
+
 .masthead{
-border-style:outset;
-border-bottom-color:FFFFFF;
-padding: 3em 0 35em 0;
-/* margin: 0em 30em 0em 30em; */
-background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/black-cat-in-living-room-peeking-over-arm-rest-of-royalty-free-image-535829203-1548451527.jpg?crop=0.964xw:0.724xh;0.0195xw,0.263xh&resize=1200:*');
-background-size: cover;
+  border-bottom-color:000000;
+  padding: 4em 1em 37em 1em;
+ /* margin: 0em 30em 0em 30em; */
+  background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/black-cat-in-living-room-peeking-over-arm-rest-of-royalty-free-image-535829203-1548451527.jpg?crop=0.964xw:0.724xh;0.0195xw,0.263xh&resize=1200:*');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-cover: auto;
 }
 /*
 /.masthead-intro {
-padding: 0 0 0 0;
-margin:-4em 0 .5em 0;
+  padding: 0 0 0 0;
+  margin:-4em 0 .5em 0;
 }*/
 
 
 .masthead-heading,
 .masthead-intro,
 .content-footer {
-  text-align: center;
+    text-align: center;
 }
 
 .masthead-intro {
-/* Typography Declarations */
-font-family: "Gentium Book Basic", Georgia, serif;
-font-size: 2em;
+  /* Layout Declarations */
+  margin-bottomm: 0em;
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  font-weight: 1000;
+  text-shadow: #000 10px 0 10px;
+  color: white;
 }
 
 .masthead-heading{
-/* Layout Declarations */
-margin-top:-0.5em;
-/* Typography Declarations */
-font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: bold;
-  font-size: 6em;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
+  /* Layout Declarations */
+  margin-top:-0.5em;
+  /* Typography Declarations */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-shadow: #000 10px 0 10px;
+    color: white;
 }
 
 .introduction-section,
 .location-section,
 .about_me-section,
 .content-footer {
-max-width: 38em;
-margin-left: auto;
-margin-right: auto;
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
 }
 
 .socsites > li {
-  display: inline-block;
+    display: inline-block;
 }
 
 .introduction-section > p,
 .location-section > p,
 .content-footer > p {
-/* Typography Declarations */
-font-weight: 200;
-letter-spacing: 0.5em;
+  /* Typography Declarations */
+  font-weight: 200;
+  letter-spacing: 0em;
+  color: white;
 }
 
 .about_me-section >h1 {
-font-family: "Gentium Book Basic", Georgia, serif;
-  font-size: 1.2em;
-  font-weight: bold;
-  /* Layout */
-  margin: 2em 0 1em 0;
+  font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* Layout */
+    margin: 2em 0 1em 0;
+    color: white;
 }
 
 section > h1 {
-  margin-top: 2em;
-}
-#vk {
-position: absolute;
-width: 90px;
-height: 30px;
-left: 530px;
-top: 1390px;
-
-background: #000000;
-border-radius: 10px;
-color: white;
-border-width: 0px;
-font-family: Arial;
-font-weight: bold;
-}
-#vk:hover {
-background: white;
-color: black;
-}
-#vk:active {
-transform: scale(0.95);
-}
-#telegram {
-position: absolute;
-width: 90px;
-height: 30px;
-left: 630px;
-top: 1390px;
-
-background: #000000;
-border-radius: 10px;
-color: white;
-border-width: 0px;
-font-family: Arial;
-font-weight: bold;
-}
-#telegram:hover {
-background: white;
-color: black;
-}
-#telegram:active {
-transform: scale(0.95);
-}
-#instagram {
-position: absolute;
-width: 90px;
-height: 30px;
-left: 730px;
-top: 1390px;
-
-background: #000000;
-border-radius: 10px;
-color: white;
-border-width: 0px;
-font-family: Arial;
-font-weight: bold;
-}
-#instagram:hover {
-background: white;
-color: black;
-}
-#instagram:active {
-transform: scale(0.95);
+    margin-top: 2em;
+    color: white;
 }
 
-#spotify {
-position: absolute;
-width: 90px;
-height: 30px;
-left: 830px;
-top: 1390px;
+.table {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-family: Communist Regular;
+  font-size: 20px;
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+  border-spacing: 10px;
+}
 
-background: #000000;
-border-radius: 10px;
-color: white;
-border-width: 0px;
-font-family: Arial;
-font-weight: bold;
+#my_soc {
+  background: #ffffff;
+  border-radius: 10px;
+  border-width: 1px;
+  border-left: 5px solid;
+  border-right: 5px solid;
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+  border-color: black;
+  font-weight: bold;
 }
-#spotify:hover {
-background: white;
-color: black;
+#my_soc:hover {
+  background: black;
+  color: white;
 }
-#spotify:active {
-transform: scale(0.95);
+
+#my_soc:active {
+  transform: scale(0.95);
+}
+
+
+footer {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0px 0px;
+  background: black;
+  border: 3px solid white;
+}
+
+footer > p {
+  color: white;
 }
