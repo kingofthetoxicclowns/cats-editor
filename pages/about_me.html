@@ -1,31 +1,21 @@
 <!DOCTYPE html>
-<html>
-
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
-    <link rel="stylesheet" href="../css/about_me.css"/>
-  </head>
-
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
 <body>
-<div class="header">
-    <a href="../pages/main.html"><IMG src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/cat-icon-18-256.png" style="width: 85px"></a>
-    <ul>
-      <a href="../pages/main.html"><li>Black Code
-      </li>
-      <li>|</li>
-      <li> Cat's Editor</a></a>
-      </li>
-    </ul>
-  </div>
-  <header class="masthead">
+    <%- include ('blocks/header') -%>
+    <h1>Main Page</h1>
+    <header class="masthead">
 		<meta harset="UTF-8">
     <p class="masthead-intro">Hi, I'm</p>
     <h1 class="masthead-heading">Kirill Kuznetsov!</h1>
-		<link rel="stylesheet" type="text/css" href="../css/about_me.css">
   </header>
   <section class="introduction-section">    
 		<h1>Introduction</h1>
@@ -39,9 +29,9 @@
 		<h1>More about me</h1>
 		<p>If you want to learn more about me, then follow the link to my account in vk, telegram, spotify, *forbidden organization*, and remember we are family and we all have potential.</p>
 </section>
-	
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
   <div>
   <div>
   <table class="table">
@@ -74,10 +64,6 @@
       </td>
   </table>
 </div>
-    <footer>
-  <div class="final_text"></div>
-  <p>Copyright &copy; All rights reserved
-    <br>Designed by Kirill Kuznetsov, 2022-2023
-  </p>
-</footer>
+    <%- include ('blocks/footer') -%>
+</body>
 </html>
