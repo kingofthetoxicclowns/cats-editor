@@ -6,26 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
     <link rel="stylesheet" href="../css/login.css"/>
-    <script src="../js/script.js"> </script>
+    <script src="../js/login.js"> </script>
   </head>
   <body>
     <div id="login_pannel">
     <IMG src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/cat-icon-18-256.png" style="
-margin: 0px 0px 0px 230px;
+margin: 0px 0px 0px 100px;
 width: 180px;
 ">
+  <form action="/login" method="POST">
+      <div id="login_name">Enter your Email</div>
+      <input type="email" name="username" id="inputEmail" class="form-control" placeholder="Email address" required autofocus
+      onchange='checkLogin(this.value)'> 
+      <div id="password_name">Enter your Password</div>
+      <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required
+      onchange='checkPassword(this.value)'>
       <div>
-        <div id="login">Login</div>
-        <div id="password">Password</div>
-        <form>
-          <input type="text" name="message" id="login_field"/
-          onchange='checkLogin(this.value)'> <input type="password"
-          name="message" id="password_field"/
-          onchange='checkPassword(this.value)'>
-        </form>
-        <button id="log_in">Log In</button>
-                <button id="create_account">Create account</button>
+          <a id="cancel" href="/">Cancel</a>
+          <input type="submit" id="log_in" class="btn btn-info" value="Submit">
       </div>
-    </div>
+  </form>
   </body>
 </html>
