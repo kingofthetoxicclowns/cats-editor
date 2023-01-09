@@ -3,8 +3,57 @@ body {
     background: black;
 }
 
+body {
+    margin: 0px;
+    background: black;
+  }
+  
+  .header {
+      width: 100%;
+      top: 0px;
+      height: 85px;
+      background: #000000;
+      position: absolute;
+      vertical-align: top;
+  }
+  
+  
+  .header a {
+      text-decoration: none;
+  }
+  
+  .header a:visited {
+      color: white;
+  }
+  
+  .header a:link {
+      color: white;
+  }
+  
+  .header ul {
+      float: right;
+      display: inline-table;
+      color: white;
+      list-style: no;
+  }
+  
+  .header li {
+      display: inline-block;
+      font-size: 60px;
+  }
+  
+  .header .a:hover {
+    cursor: pointer;
+    transform: scale(1.015);
+  }
+  .header .a:hover {
+    cursor: pointer;
+    transform: scale(1.015);
+  }
+
 .header {
     width: 100%;
+    top: 0px;
     height: 85px;
     background: #000000;
     position: absolute;
@@ -29,13 +78,13 @@ body {
     display: inline-table;
     color: white;
     list-style: no;
-    top: 10px;
+    top: 0px;
 }
 
 .header li {
     display: inline-block;
     font-size: 60px;
-    top: 10px;
+    top: 0px;
 }
 
 .header .a:hover {
@@ -45,6 +94,13 @@ body {
 .header .a:hover {
   cursor: pointer;
   transform: scale(1.015);
+}
+
+#header_link {
+  text-decoration: none;
+  background: #000000;
+  border-radius: 10px;
+  color: white;
 }
 
 * {
@@ -53,7 +109,7 @@ body {
 
 .table {
   position: relative;
-  top: -15px;
+  top: 1px;
   width: 100%;
   display: flex;
   justify-content: space-around;
